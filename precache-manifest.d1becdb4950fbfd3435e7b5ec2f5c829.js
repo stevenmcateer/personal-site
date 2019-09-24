@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6b7bfced7d9f510fb579f81afe878a5a",
+    "revision": "476d655a9dbbc6eeb7f5854239b5656e",
     "url": "/index.html"
   },
   {
-    "revision": "f72e36da8f16f37c02de",
+    "revision": "1d35c8bf7d979ed7ca48",
     "url": "/static/css/2.bc4837a2.chunk.css"
   },
   {
-    "revision": "88ff106fc6b4a0b05495",
+    "revision": "e9c6a4c0aa53c5274ff3",
     "url": "/static/css/main.a1f1f34d.chunk.css"
   },
   {
-    "revision": "f72e36da8f16f37c02de",
-    "url": "/static/js/2.c26a99da.chunk.js"
+    "revision": "1d35c8bf7d979ed7ca48",
+    "url": "/static/js/2.9e1913ad.chunk.js"
   },
   {
-    "revision": "88ff106fc6b4a0b05495",
-    "url": "/static/js/main.7c61603d.chunk.js"
+    "revision": "e9c6a4c0aa53c5274ff3",
+    "url": "/static/js/main.cdd07f5d.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d9af8cedc0819304aa1eb6edf7d0ac4c",
     "url": "/static/media/Spotify MQP logo.d9af8ced.png"
+  },
+  {
+    "revision": "091942549f6897b87a18f42748bb8390",
+    "url": "/static/media/Steven-McAteer-Resume.09194254.pdf"
   },
   {
     "revision": "8763d2bca7c5034c2febc3c8fd3e6334",
