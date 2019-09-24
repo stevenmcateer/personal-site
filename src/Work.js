@@ -20,6 +20,7 @@ export default class Work extends React.Component {
                         <Item.Content>
                             <Item.Header className="font" as='a'>ASSISTments</Item.Header>
                             <Item.Meta>Data Science</Item.Meta>
+                            <Item.Meta floated="right">June 2019 - Present</Item.Meta>
                             <Item.Description>
                                <List bulleted relaxed>
                                    <List.Item>
@@ -58,6 +59,7 @@ export default class Work extends React.Component {
                         <Item.Content>
                             <Item.Header className="font" as='a'>United Parcel Service</Item.Header>
                             <Item.Meta>Data Analytics Intern</Item.Meta>
+                            <Item.Meta floated="right">June - August 2018</Item.Meta>
                             <Item.Description>
                                 <List bulleted relaxed>
                                     <List.Item>
@@ -89,6 +91,7 @@ export default class Work extends React.Component {
                         <Item.Content>
                             <Item.Header className="font" as='a'>United Parcel Service</Item.Header>
                             <Item.Meta>Application Development Intern</Item.Meta>
+                            <Item.Meta floated="right">June - August 2017</Item.Meta>
                             <Item.Description>
                                 <List bulleted relaxed>
                                     <List.Item>

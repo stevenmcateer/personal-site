@@ -9,6 +9,7 @@ export default class About extends React.Component {
         const square = {width: 200, height: 200}
         return (
             <Container>
+                <a name="about"></a>
                 {/*<a name="about"></a>*/}
                 {/*<br/>*/}
                 {/*<h1 align="center" className={"white sub-heading"}>ABOUT ME</h1>*/}
@@ -16,8 +17,8 @@ export default class About extends React.Component {
                 {/*<br/>*/}
                 <Container>
                     <h3 id={"tagline"}>
-                        Hey, whats up? I'm Steven McAteer, a data scientist with a strong computer science background.
-                        I like anything that involves big data, machine learning, or New Jersey.
+                        Hey! I'm Steven McAteer, a data scientist with a strong computer science background.
+                        I like anything that involves big data, machine learning, or grabbing a beer.
                         {/*Feel free to <a name="contact">contact me!</a>*/}
                     </h3>
                 </Container>

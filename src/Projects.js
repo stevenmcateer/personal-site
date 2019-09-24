@@ -59,45 +59,33 @@ export default class Projects extends React.Component {
                     </Grid.Column>
                     <Grid.Column>
                         <Card fluid>
-                            <Image src={rushroster} wrapped ui={false}/>
+                            <Image src={comp} wrapped
+                                   ui={false}/>
                             <Card.Content>
-                                <Card.Header>Rush Roster</Card.Header>
+                                <Card.Header>Data Mining Competition Site</Card.Header>
                                 <Card.Meta>
-                                    <span className='date'>October 2018 - Present</span>
+                                    <span className='date'>June 2019</span>
                                 </Card.Meta>
                                 <Card.Description>
-                                    Streamlined full stack web app used for greek life recruitment. Handles profiles for potential
-                                    new members, voting, and secure user accounts with a Firebase backend. This has been a side project for me
-                                    over the past year, since my fraternity, Tau Kappa Epsilon uses it each year.
+                                    Website used for user registration, predictions submissions and evaluation for the 2019
+                                    ASSISTments Data Mining Competition. The site is built using Java, Spring Framework, and a
+                                    Postgres database.
                                     <Divider/>
-                                    <Label basic color='blue'>React</Label>
-                                    <Label basic color='blue'>Firebase</Label>
-                                    <Label basic color='blue'>JavaScript</Label>
+                                    <Label basic color='blue'>Java</Label>
+                                    <Label basic color='blue'>Spring Framework</Label>
                                     <Label basic color='blue'>Postgres</Label>
-                                    <Label basic color='blue'>CSS</Label>
-                                    <Label basic color='blue'>Semantic UX</Label>
                                 </Card.Description>
                             </Card.Content>
                             <Card.Content extra>
-                                <Grid centered columns={2}>
-                                    <Grid.Column>
-                                        <a href={"https://github.com/stevenmcateer/RushRoster"}>
-                                            <Icon name="github">
-                                                github
-                                            </Icon>
-                                        </a>
-                                    </Grid.Column>
-                                    <Grid.Column>
-                                        <a href={"http://fp-rushroster.herokuapp.com/"}>
-                                            <Icon name="external alternate">
-                                                demo
-                                            </Icon>
-                                        </a>
-                                    </Grid.Column>
-                                </Grid>
+                                <a href={"https://internal.assistments.org/CompetitionSite/users"}>
+                                    <Icon name="external alternate">
+                                        demo
+                                    </Icon>
+                                </a>
                             </Card.Content>
                         </Card>
                     </Grid.Column>
+
                     <Grid.Column>
                         <Card fluid>
                             <Image src={spotify} wrapped ui={false}/>
@@ -131,34 +119,7 @@ export default class Projects extends React.Component {
                             </Card.Content>
                         </Card>
                     </Grid.Column>
-                    <Grid.Column>
-                        <Card fluid>
-                            <Image src={comp} wrapped
-                                   ui={false}/>
-                            <Card.Content>
-                                <Card.Header>Data Mining Competition Site</Card.Header>
-                                <Card.Meta>
-                                    <span className='date'>June 2019</span>
-                                </Card.Meta>
-                                <Card.Description>
-                                    Website used for user registration, predictions submissions and evaluation for the 2019
-                                    ASSISTments Data Mining Competition. The site is built using Java, Spring Framework, and a
-                                    Postgres database.
-                                    <Divider/>
-                                    <Label basic color='blue'>Java</Label>
-                                    <Label basic color='blue'>Spring Framework</Label>
-                                    <Label basic color='blue'>Postgres</Label>
-                                </Card.Description>
-                            </Card.Content>
-                            <Card.Content extra>
-                                <a href={"https://internal.assistments.org/CompetitionSite/users"}>
-                                    <Icon name="external alternate">
-                                        demo
-                                    </Icon>
-                                </a>
-                            </Card.Content>
-                        </Card>
-                    </Grid.Column>
+
                     <Grid.Column>
                         <Card fluid>
                             <Image src={mines} wrapped
@@ -213,6 +174,47 @@ export default class Projects extends React.Component {
                                         <a href={"https://github.com/stevenmcateer/image-learning"}>
                                             <Icon name="github">
                                                 github
+                                            </Icon>
+                                        </a>
+                                    </Grid.Column>
+                                </Grid>
+                            </Card.Content>
+                        </Card>
+                    </Grid.Column>
+                    <Grid.Column>
+                        <Card fluid>
+                            <Image src={rushroster} wrapped ui={false}/>
+                            <Card.Content>
+                                <Card.Header>Rush Roster</Card.Header>
+                                <Card.Meta>
+                                    <span className='date'>October 2018 - Present</span>
+                                </Card.Meta>
+                                <Card.Description>
+                                    Streamlined full stack web app used for greek life recruitment. Handles profiles for potential
+                                    new members, voting, and secure user accounts with a Firebase backend. This has been a side project for me
+                                    over the past year, since my fraternity, Tau Kappa Epsilon uses it each year.
+                                    <Divider/>
+                                    <Label basic color='blue'>React</Label>
+                                    <Label basic color='blue'>Firebase</Label>
+                                    <Label basic color='blue'>JavaScript</Label>
+                                    <Label basic color='blue'>Postgres</Label>
+                                    <Label basic color='blue'>CSS</Label>
+                                    <Label basic color='blue'>Semantic UX</Label>
+                                </Card.Description>
+                            </Card.Content>
+                            <Card.Content extra>
+                                <Grid centered columns={2}>
+                                    <Grid.Column>
+                                        <a href={"https://github.com/stevenmcateer/RushRoster"}>
+                                            <Icon name="github">
+                                                github
+                                            </Icon>
+                                        </a>
+                                    </Grid.Column>
+                                    <Grid.Column>
+                                        <a href={"http://fp-rushroster.herokuapp.com/"}>
+                                            <Icon name="external alternate">
+                                                demo
                                             </Icon>
                                         </a>
                                     </Grid.Column>

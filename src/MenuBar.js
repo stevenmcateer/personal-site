@@ -1,5 +1,6 @@
 import React, {createRef} from 'react';
 import {Menu, Container, Link, Image} from 'semantic-ui-react'
+import resume from "./Steven-McAteer-Resume.pdf"
 import Ref from "semantic-ui-react/dist/commonjs/addons/Ref/Ref";
 
 export default class MenuBar extends React.Component {
@@ -11,7 +12,7 @@ export default class MenuBar extends React.Component {
         const {activeItem} = this.state
         return (
             <Container>
-                <Menu stackable fixed={"top"}>
+                <Menu fixed={"top"}>
                     {/*<Menu.Header>*/}
                         {/*<Header>*/}
                             {/*<Image circular src='https://react.semantic-ui.com/images/avatar/large/patrick.png' />*/}
@@ -46,6 +47,7 @@ export default class MenuBar extends React.Component {
                         onClick={this.handleItemClick}
                     />
                     <Menu.Item
+                        href={resume} download
                         name='resume'
                         active={activeItem === 'resume'}
                         onClick={this.handleItemClick}
