@@ -1,5 +1,6 @@
 import React from 'react';
 import {Image, Header, Segment, Container, Grid, Icon} from 'semantic-ui-react'
+import Divider from "semantic-ui-react/dist/commonjs/elements/Divider/Divider";
 
 
 export default class About extends React.Component {
@@ -10,16 +11,15 @@ export default class About extends React.Component {
         return (
             <Container>
                 <a name="about"></a>
-                {/*<a name="about"></a>*/}
-                {/*<br/>*/}
-                {/*<h1 align="center" className={"white sub-heading"}>ABOUT ME</h1>*/}
-                {/*<Divider/>*/}
-                {/*<br/>*/}
+                <h1 align="center" className={"white sub-heading"}>ABOUT ME</h1>
+                <Divider/>
+                <br/>
                 <Container>
                     <h3 id={"tagline"}>
-                        Hey! I'm Steven McAteer, a data scientist with a strong computer science background.
-                        I like anything that involves big data, machine learning, or grabbing a beer.
-                        {/*Feel free to <a name="contact">contact me!</a>*/}
+                        I like anything that involves big data, machine learning, or predictive modeling.
+                        <br/>
+                        <br/>
+                        When I'm not working, you can find me in the gym, DJing, listening to new music, or working on my car.
                     </h3>
                 </Container>
             </Container>

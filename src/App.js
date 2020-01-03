@@ -7,36 +7,38 @@ import Projects from "./Projects"
 import MenuBar from "./MenuBar"
 import Work from "./Work"
 import Contact from "./Contact";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import Intro from "./Intro"; // You can also use <link> for styles
+// ..
+
 
 function App() {
-
-
+    AOS.init();
     return (
         <React.Fragment>
-            <MenuBar/>
-            <br/>
-            <div id={"art-block"}>
-                <h1 className={"middle"} align="center" >// Steven McAteer</h1>
-
+            {/*<MenuBar/>*/}
+            {/*<br/>*/}
+            <div data-aos="zoom-out" id={"art-block"}>
+                <Intro/>
             </div>
-            {/*<Ticker/>*/}
-            <div id={"about-block"}>
+            <div data-aos="fade-left" id={"about-block"}>
                 <About/>
                 <br/>
             </div>
-            <div id={"info-block"}>
+            <div data-aos="fade-right" id={"info-block"}>
                 <br/>
                 <Education/>
                 <Work/>
             </div>
-            <div id={"project-block"}>
+            <div data-aos="fade-left" id={"project-block"}>
                 <br/>
                 <Projects/>
                 <br/>
                 <br/>
 
             </div>
-            <div id={"contact-block"}>
+            <div data-aos="fade-right" id={"contact-block"}>
                 <br/>
                 <Contact/>
                 <br/>

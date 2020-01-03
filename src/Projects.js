@@ -31,12 +31,11 @@ export default class Projects extends React.Component {
                                     <span className='date'>July 2019 - Present</span>
                                 </Card.Meta>
                                 <Card.Description>
-                                    Leveraging machine learning models using GloVe embeddings to understand open-ended math responses and predict
-                                    correctness grades. This repo has a simple feed-forward neural network, as well as
-                                    a Bidirectional Long Short Term Memory RNN. Currently, I am feeding these models into a Rasch model for even
-                                    better results.
+                                    Leveraging machine learning models using pre-trained word embeddings to understand open-ended math responses and predict
+                                    correctness grades. This repo has a Bidirectional Long Short Term Memory RNN, Random Forest, and an Ensemble model. The Ensemble
+                                    model has yielded promising AUC scores and is currently the best model.
                                     <Divider/>
-                                    <Label basic color='blue'>Neural Network</Label>
+                                    <Label basic color='blue'>Random Forest</Label>
                                     <Label basic color='blue'>LSTM</Label>
                                     <Label basic color='blue'>Data Cleaning</Label>
                                     <Label basic color='blue'>Recurrent Neural Network</Label>

@@ -3,16 +3,21 @@ import {Menu, Container, Link, Image} from 'semantic-ui-react'
 import resume from "./Steven-McAteer-Resume.pdf"
 import Ref from "semantic-ui-react/dist/commonjs/addons/Ref/Ref";
 
+
 export default class MenuBar extends React.Component {
     state = {activeItem: 'about'};
 
     handleItemClick = (e, {name}) => this.setState({activeItem: name})
 
+
     render() {
-        const {activeItem} = this.state
+        const {activeItem} = this.state;
+
         return (
             <Container>
+
                 <Menu fixed={"top"}>
+
                     {/*<Menu.Header>*/}
                         {/*<Header>*/}
                             {/*<Image circular src='https://react.semantic-ui.com/images/avatar/large/patrick.png' />*/}
@@ -21,6 +26,7 @@ export default class MenuBar extends React.Component {
                     {/*</Menu.Header>*/}
                     <Menu.Menu position="right">
                     </Menu.Menu>
+
                     <Menu.Item
                         href='#about'
                         name='about'
@@ -53,6 +59,7 @@ export default class MenuBar extends React.Component {
                         onClick={this.handleItemClick}
                     />
                 </Menu>
+
             </Container>
         )
     }

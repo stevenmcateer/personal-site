@@ -7,8 +7,7 @@ export default class Contact extends React.Component {
 
     render() {
         return (
-            <Container>
-                <a name="contact"></a>
+            <Container id={"contactDiv"} className="element">
                 <h2 align="center" className={"white sub-heading"}>CONTACT</h2>
                 <Grid stackable columns={4}>
                     <Grid.Column>
