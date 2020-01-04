@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "476d655a9dbbc6eeb7f5854239b5656e",
+    "revision": "973e98070ce0013c9efeb92d31719c07",
     "url": "/index.html"
   },
   {
-    "revision": "1d35c8bf7d979ed7ca48",
-    "url": "/static/css/2.bc4837a2.chunk.css"
+    "revision": "d6f9ad6f6978326920d0",
+    "url": "/static/css/2.f3c7666d.chunk.css"
   },
   {
-    "revision": "e9c6a4c0aa53c5274ff3",
-    "url": "/static/css/main.a1f1f34d.chunk.css"
+    "revision": "751e29a891cf9420a67c",
+    "url": "/static/css/main.25640217.chunk.css"
   },
   {
-    "revision": "1d35c8bf7d979ed7ca48",
-    "url": "/static/js/2.9e1913ad.chunk.js"
+    "revision": "d6f9ad6f6978326920d0",
+    "url": "/static/js/2.1c72a7bb.chunk.js"
   },
   {
-    "revision": "e9c6a4c0aa53c5274ff3",
-    "url": "/static/js/main.cdd07f5d.chunk.js"
+    "revision": "751e29a891cf9420a67c",
+    "url": "/static/js/main.b5738be4.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "091942549f6897b87a18f42748bb8390",
     "url": "/static/media/Steven-McAteer-Resume.09194254.pdf"
+  },
+  {
+    "revision": "64e94ed00a7d216e57c96d3e94ec3b03",
+    "url": "/static/media/TitilliumWeb-Light.64e94ed0.ttf"
   },
   {
     "revision": "8763d2bca7c5034c2febc3c8fd3e6334",
@@ -126,6 +130,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ef60a4f6c25ef7f39f2d25a748dbecfe",
     "url": "/static/media/outline-icons.ef60a4f6.woff"
+  },
+  {
+    "revision": "e0c4789346302074738150f5a7e8ac9e",
+    "url": "/static/media/portrait.e0c47893.png"
+  },
+  {
+    "revision": "57f1bc39dd51f75caad0ddeeebce414d",
+    "url": "/static/media/titilliumweb-light-webfont.57f1bc39.woff2"
+  },
+  {
+    "revision": "f857bf01fe8c610d972bdd00e5b0c2c4",
+    "url": "/static/media/titilliumweb-light-webfont.f857bf01.woff"
   },
   {
     "revision": "979d1b044308cd4c31bdfda59ed5cf53",
