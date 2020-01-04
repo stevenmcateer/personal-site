@@ -47,8 +47,8 @@
   padding-bottom: 15px;
 }
 #tagline {
-  font-family: "Segoe UI Light";
-  font-size: 30px;
+  font-family: "Trebuchet MS";
+  font-size: 24px;
   vertical-align: center;
   horiz-align: center;
   color: white;
@@ -110,7 +110,7 @@ a#contact {
 }
 
 .sub-heading {
-  font-family: "Segoe UI";
+  font-family: "Trebuchet MS";
 }
 
 .typist {
@@ -141,14 +141,14 @@ a#contact {
 }
 
 html body {
-  font-family: "Segoe UI";
+  font-family: "Trebuchet MS";
   font-size: 16pt;
 }
 
 
 
 .font {
-  font-family: "Segoe UI";
+  font-family: "Trebuchet MS";
 }
 
 @keyframes App-logo-spin {

@@ -11,7 +11,7 @@ export default class About extends React.Component {
         return (
             <Container>
                 <a name="about"></a>
-                <h1 align="center" className={"white sub-heading"}>ABOUT ME</h1>
+                <h2 align="center" className={"white sub-heading"}>ABOUT ME</h2>
                 <Divider/>
                 <br/>
                 <Container>
