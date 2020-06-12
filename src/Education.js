@@ -19,7 +19,45 @@ export default class Education extends React.Component {
                                 <Item.Image size='tiny' src={wpi} />
                                 <Item.Content>
                                     <Item.Header as='a'>Worcester Polytechnic Institute</Item.Header>
-                                    <Item.Meta>Bachelors of Computer Science</Item.Meta>
+                                    <Item.Meta>Master of Science, Computer Science</Item.Meta>
+                                    <Item.Description>
+                                        <List bulleted relaxed>
+                                            <List.Item>
+                                                Concentration in Data Science
+                                            </List.Item>
+                                            <List.Item>
+                                                Graduated May 2020
+                                            </List.Item>
+                                        </List>
+                                    </Item.Description>
+                                    <Item.Extra>
+                                        <Label basic color='gray'>
+                                            Artificial Intelligence
+                                        </Label>
+                                        <Label basic color='gray'>
+                                            Information Security Management
+                                        </Label>
+                                        <Label basic color='gray'>
+                                            Big Data Analytics
+                                        </Label>
+                                        <Label basic color='gray'>
+                                            Analysis of Algorithms
+                                        </Label>
+                                        <Label basic color='gray'>
+                                            Machine Learning
+                                        </Label>
+                                        <Label basic color='gray'>
+                                            Big Data Management
+                                        </Label>
+                                    </Item.Extra>
+                                </Item.Content>
+                            </Item>
+                            <Divider/>
+                            <Item>
+                                <Item.Image size='tiny' src={wpi} />
+                                <Item.Content>
+                                    <Item.Header as='a'>Worcester Polytechnic Institute</Item.Header>
+                                    <Item.Meta>Bachelor of Science, Computer Science</Item.Meta>
                                     <Item.Description>
                                         <List bulleted relaxed>
                                             <List.Item>
@@ -35,7 +73,7 @@ export default class Education extends React.Component {
                                     </Item.Description>
                                     <Item.Extra>
                                         <Label basic color='gray'>
-                                            Foundations of Data Science
+                                            Data Science
                                         </Label>
                                         <Label basic color='gray'>
                                             Data Mining & Knowledge Discovery
@@ -62,44 +100,8 @@ export default class Education extends React.Component {
                                 </Item.Content>
                             </Item>
                             {/*Graduate*/}
-                            <Divider/>
-                            <Item>
-                                <Item.Image size='tiny' src={wpi} />
-                                <Item.Content>
-                                    <Item.Header as='a'>Worcester Polytechnic Institute</Item.Header>
-                                    <Item.Meta>Masters of Computer Science</Item.Meta>
-                                    <Item.Description>
-                                        <List bulleted relaxed>
-                                            <List.Item>
-                                                Concentration in Data Science
-                                            </List.Item>
-                                            <List.Item>
-                                                Expected Graduation, May 2020
-                                            </List.Item>
-                                        </List>
-                                    </Item.Description>
-                                    <Item.Extra>
-                                        <Label basic color='gray'>
-                                            Artificial Intelligence
-                                        </Label>
-                                        <Label basic color='gray'>
-                                            Information Security Management
-                                        </Label>
-                                        <Label basic color='gray'>
-                                            Data Analytics
-                                        </Label>
-                                        <Label basic color='gray'>
-                                            Analysis of Algorithms
-                                        </Label>
-                                        <Label basic color='gray'>
-                                            Machine Learning in Computer Security
-                                        </Label>
-                                        <Label basic color='gray'>
-                                            Big Data Management
-                                        </Label>
-                                    </Item.Extra>
-                                </Item.Content>
-                            </Item>
+
+
                         </Item.Group>
 
             </Container>

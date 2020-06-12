@@ -5,6 +5,7 @@ import ups from "./ups.svg"
 import List from "semantic-ui-react/dist/commonjs/elements/List/List";
 import Divider from "semantic-ui-react/dist/commonjs/elements/Divider/Divider";
 import Label from "semantic-ui-react/dist/commonjs/elements/Label/Label";
+import colgate from "./colgate.jpg"
 export default class Work extends React.Component {
 
 
@@ -16,16 +17,37 @@ export default class Work extends React.Component {
                 <Divider/>
                 <Item.Group>
                     <Item>
+                        <Item.Image size='tiny' src={colgate} />
+                        <Item.Content>
+                            <Item.Header className="font" as='a'>Colgate-Palmolive</Item.Header>
+                            <Item.Meta>Data Scientist</Item.Meta>
+                            <Item.Meta floated="right">June 2020 - Present</Item.Meta>
+                            <Item.Description>
+                                Working with Hill's Pet Nutrition to build predictive models to improve preventative
+                                measures in pet food.
+                            </Item.Description>
+                            <Item.Extra>
+                                <Label basic color='gray'>Machine Learning</Label>
+                                <Label basic color='gray'>Deep Learning</Label>
+                                <Label basic color='gray'>Python</Label>
+                                <Label basic color='gray'>PyTorch</Label>
+                                <Label basic color='gray'>scikit-learn</Label>
+                                <Label basic color='gray'>Pandas</Label>
+                                <Label basic color='gray'>XAI</Label>
+                            </Item.Extra>
+                        </Item.Content>
+                    </Item>
+                    <Divider/>
+                    <Item>
                         <Item.Image size='tiny' src={assist} />
                         <Item.Content>
                             <Item.Header className="font" as='a'>ASSISTments</Item.Header>
-                            <Item.Meta>Data Science</Item.Meta>
-                            <Item.Meta floated="right">June 2019 - Present</Item.Meta>
+                            <Item.Meta>Data Scientist</Item.Meta>
+                            <Item.Meta floated="right">June 2019 - May 2020</Item.Meta>
                             <Item.Description>
                                 Responsible for building predictive models to auto-grade open-ended responses. By leveraging
                                 several different deep learning and machine learning models, we can understand the correctness
-                                of a student's answer to thousands of math questions. The next steps are constructing a randomized control trial to understand the
-                                effect of automated open-response grading on student learning.
+                                of a student's answer to thousands of math questions. This feature has been pushed to production and is now in use.
                             </Item.Description>
                             <Item.Extra>
                                 <Label basic color='gray'>Machine Learning</Label>
