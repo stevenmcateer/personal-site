@@ -28,8 +28,8 @@ function App() {
             </div>
             <div data-aos="fade-right" id={"info-block"}>
                 <br/>
-                <Education/>
                 <Work/>
+                <Education/>
             </div>
             <div data-aos="fade-left" id={"project-block"}>
                 <br/>

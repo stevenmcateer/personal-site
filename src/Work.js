@@ -14,26 +14,45 @@ export default class Work extends React.Component {
             <Container>
                 <a name="experience"></a>
                 <h2 align="center" className={"sub-heading"}>WORK EXPERIENCE</h2>
+                
                 <Divider/>
                 <Item.Group>
                     <Item>
                         <Item.Image size='tiny' src={colgate} />
                         <Item.Content>
                             <Item.Header className="font" as='a'>Colgate-Palmolive</Item.Header>
-                            <Item.Meta>Data Scientist</Item.Meta>
-                            <Item.Meta floated="right">June 2020 - Present</Item.Meta>
+                            <Item.Meta>Data Scientist - Global Analytics Team</Item.Meta>
+                            <Item.Meta floated="right">March 2022 - Present</Item.Meta>
                             <Item.Description>
-                                Working with Hill's Pet Nutrition to build predictive models to improve preventative
-                                measures in pet food.
+                                Develop cutting-edge apps that enable global business teams to make data-driven 
+                                decisions for Revenue Growth Management initiatives. Utilizing innovative technologies such as generative AI, 
+                                I collaborate directly with business teams to drive projects such as assortment optimization.
                             </Item.Description>
                             <Item.Extra>
                                 <Label basic color='gray'>Machine Learning</Label>
                                 <Label basic color='gray'>Deep Learning</Label>
+                                <Label basic color='gray'>Optimization</Label>
+                                <Label basic color='gray'>ChatGPT</Label>
+                                <Label basic color='gray'>RGM</Label>
+                            </Item.Extra>
+                        </Item.Content>
+                    </Item>
+                    <Divider/>
+                    <Item>
+                        <Item.Image size='tiny' src={colgate} />
+                        <Item.Content>
+                            <Item.Header className="font" as='a'>Colgate-Palmolive</Item.Header>
+                            <Item.Meta>Data Scientist - Data Visualization & Insights Team</Item.Meta>
+                            <Item.Meta floated="right">June 2020 - March 2022</Item.Meta>
+                            <Item.Description>
+                            Evaluated and implemented data science and ML Ops tools such as Dataiku, Domo, Vertex,
+                            and Plotly Dash to enhance organizational capabilities. I collaborated with business teams to 
+                            deliver models and explore data to drive informed decision-making.
+                            </Item.Description>
+                            <Item.Extra>
+                                <Label basic color='gray'>Data Visualization</Label>
+                                <Label basic color='gray'>AI</Label>
                                 <Label basic color='gray'>Python</Label>
-                                <Label basic color='gray'>PyTorch</Label>
-                                <Label basic color='gray'>scikit-learn</Label>
-                                <Label basic color='gray'>Pandas</Label>
-                                <Label basic color='gray'>XAI</Label>
                             </Item.Extra>
                         </Item.Content>
                     </Item>
