@@ -28,12 +28,6 @@ export default class Contact extends React.Component {
                             stevenmcateer7@gmail.com
                         </a>
                     </Grid.Column>
-                    {/* <Grid.Column>
-                        <a className={"white sub-heading"}>
-                            <Icon color={"white"} name='phone' size='large' />
-                            732-856-1395
-                        </a>
-                    </Grid.Column> */}
                 </Grid>
 
             </Container>
